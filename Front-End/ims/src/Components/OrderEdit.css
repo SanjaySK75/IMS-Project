@@ -1,0 +1,67 @@
+.order-edit-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    background-color: #f4f4f4;
+}
+
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-top: 150px;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.form-container input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 370px;
+}
+
+.form-container select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 385px;
+}
+
+.form-container button {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.save-btn {
+    background-color: #28a745;
+    color: white;
+    width: 385px;
+}
+
+.cancel-btn {
+    background-color: #dc3545;
+    color: white;
+    width: 385px;
+}

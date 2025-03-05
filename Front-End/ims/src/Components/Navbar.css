@@ -1,0 +1,26 @@
+.navbar{
+  background-color: bisque;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-link{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.nav-btn{
+  text-decoration: none;
+}
+.navchild a{
+  padding: 10px;
+}
+.active{
+  background-color:blueviolet;
+  color: white;
+  padding: 10px;
+  border: 3px double white;
+  border-radius: 8px;
+}

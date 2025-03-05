@@ -1,0 +1,24 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+    background-color: rgb(255, 228, 196);
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: black;
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: rgb(138, 43, 226);
+    transform: scale(1.2);
+}

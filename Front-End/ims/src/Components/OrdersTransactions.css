@@ -1,0 +1,112 @@
+.orders-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #f4f4f4;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  position: relative;
+}
+
+.search-box input {
+  padding: 8px 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+.order-summary {
+  background: #ecf0f1;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.table-container {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.table-container th,
+.table-container td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+}
+
+select option:nth-child(1) {
+  background-color: #2ecc71;
+  color: black;
+}
+
+select option:nth-child(2) {
+  background-color: #f1c40f;
+  color: black;
+}
+
+select option:nth-child(3) {
+  background-color: #e74c3c;
+  color: black;
+}
+
+.order-edit-btn,
+.order-delete-btn {
+  padding: 5px 8px;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.order-edit-btn {
+  background: #f39c12;
+  color: white;
+}
+
+.order-delete-btn {
+  background: #e74c3c;
+  color: white;
+}
+
+.status select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
